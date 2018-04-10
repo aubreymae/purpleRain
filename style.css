@@ -1,0 +1,376 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300');
+
+
+/* Reset */
+html, body, div
+{
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	font-size: 100%;
+}
+
+body
+{
+	background-image: url('assets/imgs/background.jpg');
+	background-attachment: fixed;
+}
+
+p
+{
+	font-family: 'Open Sans Condensed';
+	font-size: 1.5em;
+}
+
+/* Header */
+#header
+{
+	position: relative;
+	clear: both;
+	width: 600px;
+	height: 15em;
+	margin: 0 auto;
+	margin-top: 2em;
+	padding-right: 2em;
+	padding-left: 2em;
+	text-align: left;
+	font-family: 'Montserrat';
+	background-color: #efefef;
+	box-shadow: 2px 0px 8px #5f2775;
+}
+
+#artist-icon
+{
+	position: relative;
+	float: left;
+	width: 10em;
+	height: 10em;
+	top: 15%;
+	margin-right: 2em;
+	border-radius: 50%;
+	box-shadow: 2px 0px 8px #888888;
+}
+
+#artist-name
+{
+	position: relative;
+	display: inline-block;
+	float: left;
+	top: 15%;
+	font-size: 3.5em;
+}
+
+#artist-subtitle
+{
+	position: relative;
+	display: inline-block;
+	float: left;
+	top: 5%;
+	font-size: 1.5em;
+}
+
+/* Menu */
+#menu
+{
+	position: relative;
+	width: 600px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.menu-button
+{
+	position: relative;
+	display: table-row;
+	width: 100px;
+	height: 30px;
+	margin-top: 0px;
+	margin-left: 5px;
+	margin-right: 5px;
+	font-family: 'Open Sans Condensed';
+	font-size: 1.2em;
+	color: white;
+	background-color: black;
+	border: 0px;
+	box-shadow: 2px 2px 1px #5f2775;
+	transition-duration: 1s;
+}
+
+.menu-button:hover
+{
+	background-color: #D3849A;
+	transition-duration: 1s;
+}
+
+/* Content */
+#content
+{
+	width: 600px;
+	height: auto;
+	margin: 0 auto;
+	margin-top: 2em;
+	padding: 2em;
+	background-color: #efefef;
+	box-shadow: 2px 0px 8px #5f2775;
+}
+
+.content-text-container
+{
+	margin-top: 2em;
+}
+
+#breadcrumbs
+{
+	color: black;
+	font-weight: 200;
+	border-bottom: 1px solid black;
+}
+
+#breadcrumbs > a
+{
+	text-decoration: none;
+}
+
+.section-title
+{
+	position: relative;
+	display: inline-block;
+	float: left;
+	margin-top: 1em;
+	font-size: 1.8em;
+	font-family: 'Montserrat';
+}
+
+.grid-row
+{
+	display: inline-block;
+	clear: both;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+.grid-box-left
+{
+	position: relative;
+	float: left;
+	width: 260px;
+	height: 260px;
+	margin-top: 10px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	text-align: center;
+	background-color: black;
+	box-shadow: 2px 0px 8px #888888;
+}
+
+.grid-box-right
+{
+	position: relative;
+	float: right;
+	width: 260px;
+	height: 260px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-left: 10px;
+	text-align: center;
+	background-color: black;
+	box-shadow: 2px 0px 8px #888888;
+}
+
+.grid-box-left-design
+{
+	position: relative;
+	float: left;
+	width: 168px;
+	height: 250px;
+	margin: 10px 10px 10px 0;
+	text-align: center;
+	background-position: top;
+	background-size: cover;
+	box-shadow: 2px 0px 8px #888888;
+}
+
+.grid-box-mid-design
+{
+	position: relative;
+	float: left;
+	width: 168px;
+	height: 250px;
+	margin: 10px;
+	text-align: center;
+	background-position: top;
+	background-size: cover;
+	box-shadow: 2px 0px 8px #888888;
+}
+
+.grid-box-right-design
+{
+	position: relative;
+	float: left;
+	width: 168px;
+	height: 250px;
+	margin: 10px 0 10px 10px;
+	text-align: center;
+	background-position: top;
+	background-size: cover;
+	box-shadow: 2px 0px 8px #888888;
+}
+
+.grid-box-title
+{
+	position: absolute;
+	display: inline-block;
+	top: 5%;
+	left: 5%;
+	margin: 0 auto;
+	font-family: 'Montserrat';
+	font-size: 1.5em;
+	font-weight: 900;
+	text-align: left;
+	opacity: 1;
+	color: white;
+}
+
+.grid-box-text
+{
+	position: absolute;
+	display: inline-block;
+	top: 20%;
+	left: 5%;
+	right: 5%;
+	margin: 0 auto;
+	font-family: 'Open Sans Condensed';
+	font-size: 1.3em;
+	text-align: left;
+	opacity: 1;
+	color: white;
+}
+
+.grid-box-img
+{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	transition-duration: 1s;
+	background-size: cover;
+}
+
+.grid-box-img:hover
+{
+	opacity: 0.2;
+	transition-duration: 1s;
+}
+
+.grid-description
+{
+	position: absolute;
+	bottom: 0px;
+	padding: 0.5em;
+	font-family: 'Open Sans Condensed';
+	font-size: 1.2em;
+	text-align: left;
+	color: white;
+	background-color: black;
+	border-top: 1px solid white;
+}
+
+/* Footer */
+#footer
+{
+	padding: 5em;
+	text-align: center;
+}
+
+#footer-text
+{
+	font-family: 'Open Sans Condensed';
+	font-size: 1.5em;
+	font-weight: 1;
+	color: white;
+}
+
+/* Mobile */
+@media only screen and (max-width: 700px)
+{
+	/* Header */
+	#header
+	{
+		width: 90%;
+		padding: 0em 1em 0 1em;
+		text-align: center;
+		box-shadow: 2px 0px 8px #5f2775;
+	}
+
+	#artist-icon
+	{
+		display: none;
+	}
+
+	#artist-name
+	{
+		float: none;
+		top: 5%;
+	}
+
+	#artist-subtitle
+	{
+		float: none;
+		top: 0%;
+	}
+
+	/* Menu */
+	#menu
+	{
+		width: 90%;
+	}
+
+	/* Content */
+	#content
+	{
+		width: 90%;
+		height: auto;
+		box-shadow: 2px 0px 8px #5f2775;
+	}
+
+	.grid-box-left
+	{
+		float: none;
+		width: 100%;
+		margin: 0 auto;
+		margin-bottom: 1em;
+		box-shadow: 2px 0px 8px #888888;
+	}
+
+	.grid-box-right
+	{
+		float: none;
+		width: 100%;
+		margin: 0 auto;
+		margin-top: 1em;
+		box-shadow: 2px 0px 8px #888888;
+	}
+
+	.grid-box-left-design
+	{
+		width: 100%;
+		height: 300px;
+		box-shadow: 2px 0px 8px #888888;
+	}
+
+	.grid-box-mid-design
+	{
+		width: 100%;
+		height: 300px;
+		margin-left: 0;
+		box-shadow: 2px 0px 8px #888888;
+	}
+
+	.grid-box-right-design
+	{
+		width: 100%;
+		height: 300px;
+		margin-left: 0;
+		box-shadow: 2px 0px 8px #888888;
+	}
+}
