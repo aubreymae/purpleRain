@@ -164,6 +164,11 @@ p
 	box-shadow: 2px 0px 8px #888888;
 }
 
+.grid-box-left:hover
+{
+	cursor: pointer;
+}
+
 .grid-box-right
 {
 	position: relative;

@@ -3,20 +3,16 @@
 	<head>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<link rel="stylesheet" type="text/css" href="style.css">
+		<link rel="stylesheet" type="text/css" href="{{site.baseurl}}/style.css">
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 		<title>Aubrey Garcia's Personal Website</title>
 	</head>
 	<body>
 		<!-- HEADER -->
-		<div id="header">
-			<img id="artist-icon" src="./assets/imgs/artist-icon.jpg"></img>
-			<h1 id="artist-name">Aubrey Garcia</h1>
-			<h3 id="artist-subtitle">Programming and Design</h3>
-		</div>
+		{% include header.html %}
 		<!-- MENU -->
 		{% include nav.html %}
-		
+
 		<!-- CONTENT -->
 		<div id="content">
 
@@ -24,8 +20,6 @@
 
 		</div>
 		<!-- FOOTER -->
-		<div id="footer">
-			<h5 id="footer-text">Made by Aubrey Garcia © 2018</h5>
-		</div>
+		{% include footer.html %}
 	</body>
 </html>
